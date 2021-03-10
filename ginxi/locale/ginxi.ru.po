@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: taboutform.caption
+msgctxt "taboutform.caption"
+msgid "About"
+msgstr "О программе"
+
+#: taboutform.label1.caption
+msgid "Label1"
+msgstr ""
+
+#: taboutform.label3.caption
+msgid ""
+"GUI for INXI\n"
+"\n"
+"License: GPLv3\n"
+"Compilation: Lazarus 2.0.10\n"
+"Author: alex_q_2000 (C) 2021\n"
+"\n"
+"Russian Linux Forum\n"
+"https://linuxforum.ru\n"
+msgstr ""
+"GUI для INXI\n"
+"\n"
+"Лицензия: GPLv3\n"
+"Компиляция: Lazarus 2.0.10\n"
+"Автор: alex_q_2000 (C) 2021\n"
+"\n"
+"Russian Linux Forum\n"
+"https://linuxforum.ru\n"
+
+#: tmainform.caption
+msgid "GINXI"
+msgstr ""
+
+#: tmainform.menuitem1.caption
+msgid "Copy the paragraph"
+msgstr "Копировать параграф"
+
+#: tmainform.menuitem10.caption
+msgid "Zebra"
+msgstr "Зебра"
+
+#: tmainform.menuitem11.caption
+msgid "Red and Blue"
+msgstr "Красный и Синий"
+
+#: tmainform.menuitem14.caption
+msgid "Color Off"
+msgstr "Выключить цвет"
+
+#: tmainform.menuitem15.caption
+msgid "Maroon and Green"
+msgstr "Бордовый и Зеленый"
+
+#: tmainform.menuitem16.caption
+msgid "Teal and Purple"
+msgstr "Бирюза и Фиолетовый"
+
+#: tmainform.menuitem17.caption
+msgid "Blue and Maroon"
+msgstr "Синий и Бордовый"
+
+#: tmainform.menuitem3.caption
+msgid "Save all to file"
+msgstr "Сохранить всё в файл"
+
+#: tmainform.menuitem5.caption
+msgid "Close"
+msgstr "Закрыть"
+
+#: tmainform.menuitem7.caption
+msgctxt "tmainform.menuitem7.caption"
+msgid "About"
+msgstr "О программе"
+
+#: tmainform.menuitem8.caption
+msgid "Color scheme"
+msgstr "Цветовая схема"
+
+#: tmainform.menuitem9.caption
+msgid "GINXI Colors"
+msgstr "Цвета GINXI"
+
+#: tmainform.panel1.caption
+msgid "System:"
+msgstr "Система:"
+
+#: tmainform.panel10.caption
+msgid "Sensors:"
+msgstr "Сенсоры:"
+
+#: tmainform.panel11.caption
+msgid "Info:"
+msgstr "Инфо:"
+
+#: tmainform.panel2.caption
+msgid "Machine:"
+msgstr "Машина:"
+
+#: tmainform.panel3.caption
+msgid "CPU:"
+msgstr "ЦПУ:"
+
+#: tmainform.panel4.caption
+msgid "Graphics:"
+msgstr "Графика:"
+
+#: tmainform.panel5.caption
+msgid "Audio:"
+msgstr "Аудио:"
+
+#: tmainform.panel6.caption
+msgid "Network:"
+msgstr "Сеть:"
+
+#: tmainform.panel7.caption
+msgid "Drives:"
+msgstr "Приводы:"
+
+#: tmainform.panel8.caption
+msgid "Partition:"
+msgstr "Разделы:"
+
+#: tmainform.panel9.caption
+msgid "RAID:"
+msgstr "RAID:"

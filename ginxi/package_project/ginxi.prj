@@ -1,0 +1,89 @@
+[NAME]
+name=ginxi
+
+[VERSION]
+version=1.4
+
+[RELEASE]
+release=0.mrx8
+
+[GROUP]
+group=Applications/System
+
+[DESCRIPTION]
+0=GINXI - simple GUI for INXI
+1=inxi is a full featured CLI system information tool. It is available in most Linux distribution repositories,
+2=and does its best to support the BSDs. http://smxi.org/docs/inxi.htm
+3=...
+4=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2019
+
+[SUMMARY]
+summary=GINXI - Simple GUI for INXI
+
+[URLCOPY]
+urlcopy=https://cloud.mail.ru/public/5kma/573FjdpNE
+
+[LICENSE]
+license=GPLv3+
+
+[DEPS]
+deps=inxi gettext
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[SIGN]
+sign=0
+
+[FILES]
+0=/usr/bin/ginxi
+1=/usr/share/ginxi/
+2=/usr/share/icons/ginxi.png
+3=/usr/share/applications/ginxi.desktop
+4=/usr/share/doc/ginxi/
+
+[AFTERINSTALL]
+0=#ldconfig
+1=#update-desktop-database -q /usr/share/applications
+2=#update-mime-database /usr/share/mime
+3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
+
+[AFTERREMOVE]
+0=#ldconfig
+1=#update-desktop-database -q /usr/share/applications
+2=#update-mime-database /usr/share/mime
+3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
+
+[URL32]
+url32=https://cloud.mail.ru/public/5kma/573FjdpNE
+
+[URL64]
+url64=
+
+[PROGRAMNAME]
+programname=GINXI
+
+[DEVTOOL]
+devtool=Lazarus
+
+[TOOLVERSION]
+toolversion=2.0.10
+
+[INFO]
+0=Lazarus 2.0.10 is required to compile the program.
+1=
+2=GINXI is a GUI for INXI.
+3=Translation files are located in /usr/share/ginxi/locale
+4=
+5=inxi is a full featured CLI system information tool. It is available in most Linux distribution repositories, and does its best to support the BSDs. http://smxi.org/docs/inxi.htm
+6=
+7=GitHub: https://github.com/smxi/inxi

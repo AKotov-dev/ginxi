@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: taboutform.caption
+msgctxt "taboutform.caption"
+msgid "About"
+msgstr ""
+
+#: taboutform.label1.caption
+msgid "Label1"
+msgstr ""
+
+#: taboutform.label3.caption
+msgid ""
+"GUI for INXI\n"
+"\n"
+"License: GPLv3\n"
+"Compilation: Lazarus 2.0.10\n"
+"Author: alex_q_2000 (C) 2021\n"
+"\n"
+"Russian Linux Forum\n"
+"https://linuxforum.ru\n"
+msgstr ""
+
+#: tmainform.caption
+msgid "GINXI"
+msgstr ""
+
+#: tmainform.menuitem1.caption
+msgid "Copy the paragraph"
+msgstr ""
+
+#: tmainform.menuitem10.caption
+msgid "Zebra"
+msgstr ""
+
+#: tmainform.menuitem11.caption
+msgid "Red and Blue"
+msgstr ""
+
+#: tmainform.menuitem14.caption
+msgid "Color Off"
+msgstr ""
+
+#: tmainform.menuitem15.caption
+msgid "Maroon and Green"
+msgstr ""
+
+#: tmainform.menuitem16.caption
+msgid "Teal and Purple"
+msgstr ""
+
+#: tmainform.menuitem17.caption
+msgid "Blue and Maroon"
+msgstr ""
+
+#: tmainform.menuitem3.caption
+msgid "Save all to file"
+msgstr ""
+
+#: tmainform.menuitem5.caption
+msgid "Close"
+msgstr ""
+
+#: tmainform.menuitem7.caption
+msgctxt "tmainform.menuitem7.caption"
+msgid "About"
+msgstr ""
+
+#: tmainform.menuitem8.caption
+msgid "Color scheme"
+msgstr ""
+
+#: tmainform.menuitem9.caption
+msgid "GINXI Colors"
+msgstr ""
+
+#: tmainform.panel1.caption
+msgid "System:"
+msgstr ""
+
+#: tmainform.panel10.caption
+msgid "Sensors:"
+msgstr ""
+
+#: tmainform.panel11.caption
+msgid "Info:"
+msgstr ""
+
+#: tmainform.panel2.caption
+msgid "Machine:"
+msgstr ""
+
+#: tmainform.panel3.caption
+msgid "CPU:"
+msgstr ""
+
+#: tmainform.panel4.caption
+msgid "Graphics:"
+msgstr ""
+
+#: tmainform.panel5.caption
+msgid "Audio:"
+msgstr ""
+
+#: tmainform.panel6.caption
+msgid "Network:"
+msgstr ""
+
+#: tmainform.panel7.caption
+msgid "Drives:"
+msgstr ""
+
+#: tmainform.panel8.caption
+msgid "Partition:"
+msgstr ""
+
+#: tmainform.panel9.caption
+msgid "RAID:"
+msgstr ""
+
