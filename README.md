@@ -1,4 +1,4 @@
 ginxi - GUI for inxi (getting system information)
 ---
-Starts scanning immediately after starting without any questions.  
+Starts scanning immediately after starting without any questions (see the screenshot).  
 It contains 5 built-in color schemes, and can save individual paragraphs or the entire result to a file.
