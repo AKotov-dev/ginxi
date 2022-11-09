@@ -52,11 +52,11 @@ begin
   try
     ExProcess.Executable := 'bash';
     ExProcess.Parameters.Add('-c');
-    ExProcess.Options := ExProcess.Options + [poUsePipes,
-      poStderrToOutPut, ponoConsole];
+    ExProcess.Options := ExProcess.Options +
+      [poUsePipes, poStderrToOutPut, ponoConsole];
 
     //System
-    ExProcess.Parameters.Add('inxi -S -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -S -c0 | cut -d" " -f2- | grep -v ^System:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -65,7 +65,7 @@ begin
 
     //Machine
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -M -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -M -c0 | cut -d" " -f2- | grep -v ^Machine:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -74,7 +74,7 @@ begin
 
     //CPU
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -C -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -C -c0 | cut -d" " -f2- | grep -v ^CPU:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -83,7 +83,7 @@ begin
 
     //Graphics
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -G -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -G -c0 | cut -d" " -f2- | grep -v ^Graphics:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -92,7 +92,7 @@ begin
 
     //Audio
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -A -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -A -c0 | cut -d" " -f2- | grep -v ^Audio:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -101,7 +101,7 @@ begin
 
     //Network
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -n -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -n -c0 | cut -d" " -f2- | grep -v ^Network:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -110,7 +110,7 @@ begin
 
     //Drives
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -D -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -D -c0 | cut -d" " -f2- | grep -v ^Drives:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -119,7 +119,7 @@ begin
 
     //Partition
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -p -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -p -c0 | cut -d" " -f2- | grep -v ^Partition:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -128,7 +128,7 @@ begin
 
     //RAID
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -R -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -R -c0 | cut -d" " -f2- | grep -v ^RAID:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -137,7 +137,7 @@ begin
 
     //Sensors
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -s -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -s -c0 | cut -d" " -f2- | grep -v ^Sensors:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do
@@ -146,7 +146,7 @@ begin
 
     //Info
     ExProcess.Parameters.Delete(1);
-    ExProcess.Parameters.Add('inxi -I -c0 | cut -d" " -f2-');
+    ExProcess.Parameters.Add('inxi -I -c0 | cut -d" " -f2- | grep -v ^Info:$');
     ExProcess.Execute;
     S.LoadFromStream(ExProcess.Output);
     for i := 0 to S.Count - 1 do

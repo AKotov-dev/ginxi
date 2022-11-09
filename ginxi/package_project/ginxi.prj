@@ -2,10 +2,10 @@
 name=ginxi
 
 [VERSION]
-version=1.4
+version=1.5
 
 [RELEASE]
-release=0.mrx8
+release=0.mrx9
 
 [GROUP]
 group=Applications/System
@@ -27,13 +27,13 @@ vendor=alex_q_2000 (C) 2019
 summary=GINXI - Simple GUI for INXI
 
 [URLCOPY]
-urlcopy=https://cloud.mail.ru/public/5kma/573FjdpNE
+urlcopy=https://github.com/AKotov-dev/ginxi
 
 [LICENSE]
-license=GPLv3+
+license=GPLv3
 
 [DEPS]
-deps=inxi gettext
+deps=inxi gtk2
 
 [META]
 meta=0
@@ -44,6 +44,9 @@ noarch=0
 [SIGN]
 sign=0
 
+[DEB]
+deb=0
+
 [FILES]
 0=/usr/bin/ginxi
 1=/usr/share/ginxi/
@@ -51,20 +54,8 @@ sign=0
 3=/usr/share/applications/ginxi.desktop
 4=/usr/share/doc/ginxi/
 
-[AFTERINSTALL]
-0=#ldconfig
-1=#update-desktop-database -q /usr/share/applications
-2=#update-mime-database /usr/share/mime
-3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
-
-[AFTERREMOVE]
-0=#ldconfig
-1=#update-desktop-database -q /usr/share/applications
-2=#update-mime-database /usr/share/mime
-3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
-
 [URL32]
-url32=https://cloud.mail.ru/public/5kma/573FjdpNE
+url32=https://github.com/AKotov-dev/ginxi
 
 [URL64]
 url64=
@@ -76,14 +67,22 @@ programname=GINXI
 devtool=Lazarus
 
 [TOOLVERSION]
-toolversion=2.0.10
+toolversion=2.2.0
 
 [INFO]
-0=Lazarus 2.0.10 is required to compile the program.
-1=
-2=GINXI is a GUI for INXI.
-3=Translation files are located in /usr/share/ginxi/locale
-4=
-5=inxi is a full featured CLI system information tool. It is available in most Linux distribution repositories, and does its best to support the BSDs. http://smxi.org/docs/inxi.htm
-6=
-7=GitHub: https://github.com/smxi/inxi
+0=GINXI is a GUI for INXI
+1=Translation files are located in /usr/share/ginxi/locale
+2=
+3=inxi is a full featured CLI system information tool. It is available in most Linux distribution repositories, and does its best to support the BSDs
+4=http://smxi.org/docs/inxi.htm
+5=
+6=GitHub: https://github.com/smxi/inxi
+7=
+8=v1.5
+9=+ Added rpm-dependencies: gtk2
+10=+ Recompilation in Lazarus 2.2.0
+11=+ Filtering unnecessary headers (inxi-v3.3)
+12=+ Release for Mageia-9 and higher
+13=
+14=v1.4
+15=+ initial release

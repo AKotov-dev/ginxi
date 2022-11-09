@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <BuildModes Count="1" Active="Release">
       <Item1 Name="Release">
         <CompilerOptions>
@@ -22,6 +22,7 @@
           <Linking>
             <Debugging>
               <GenerateDebugInfo Value="False"/>
+              <DebugInfoType Value="dsDwarf2Set"/>
             </Debugging>
             <LinkSmart Value="True"/>
             <Options>
@@ -37,8 +38,8 @@
       <Unit0>
         <Filename Value="ginxi.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos Y="20"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="58" Y="3"/>
         <UsageCount Value="54"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -49,9 +50,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="153"/>
-        <CursorPos X="55" Y="169"/>
+        <TopLine Value="156"/>
+        <CursorPos X="39" Y="169"/>
         <UsageCount Value="54"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -60,9 +60,11 @@
         <Filename Value="systrd.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="SysTRD"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="20" Y="220"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="85"/>
+        <CursorPos X="76" Y="113"/>
         <UsageCount Value="47"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="unit2.pas"/>
@@ -71,9 +73,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit2"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="23"/>
-        <CursorPos X="57" Y="26"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="27"/>
+        <CursorPos X="3" Y="46"/>
         <UsageCount Value="32"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -91,128 +94,128 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="unit1.pas"/>
-        <Caret Line="352" Column="39" TopLine="333"/>
+        <Caret Line="343" Column="39" TopLine="324"/>
       </Position1>
       <Position2>
         <Filename Value="unit1.pas"/>
-        <Caret Line="351" Column="39" TopLine="332"/>
+        <Caret Line="342" Column="39" TopLine="323"/>
       </Position2>
       <Position3>
         <Filename Value="unit1.pas"/>
-        <Caret Line="350" Column="39" TopLine="331"/>
+        <Caret Line="341" Column="39" TopLine="322"/>
       </Position3>
       <Position4>
         <Filename Value="unit1.pas"/>
-        <Caret Line="349" Column="39" TopLine="330"/>
+        <Caret Line="340" Column="39" TopLine="321"/>
       </Position4>
       <Position5>
         <Filename Value="unit1.pas"/>
-        <Caret Line="348" Column="39" TopLine="329"/>
+        <Caret Line="339" Column="39" TopLine="320"/>
       </Position5>
       <Position6>
         <Filename Value="unit1.pas"/>
-        <Caret Line="347" Column="39" TopLine="328"/>
+        <Caret Line="338" Column="39" TopLine="319"/>
       </Position6>
       <Position7>
         <Filename Value="unit1.pas"/>
-        <Caret Line="346" Column="39" TopLine="327"/>
+        <Caret Line="337" Column="39" TopLine="318"/>
       </Position7>
       <Position8>
         <Filename Value="unit1.pas"/>
-        <Caret Line="345" Column="39" TopLine="326"/>
+        <Caret Line="336" Column="39" TopLine="317"/>
       </Position8>
       <Position9>
         <Filename Value="unit1.pas"/>
-        <Caret Line="344" Column="39" TopLine="325"/>
+        <Caret Line="335" Column="39" TopLine="316"/>
       </Position9>
       <Position10>
         <Filename Value="unit1.pas"/>
-        <Caret Line="343" Column="39" TopLine="324"/>
+        <Caret Line="334" Column="39" TopLine="315"/>
       </Position10>
       <Position11>
         <Filename Value="unit1.pas"/>
-        <Caret Line="342" Column="39" TopLine="323"/>
+        <Caret Line="333" Column="39" TopLine="314"/>
       </Position11>
       <Position12>
         <Filename Value="unit1.pas"/>
-        <Caret Line="341" Column="39" TopLine="322"/>
+        <Caret Line="332" Column="39" TopLine="313"/>
       </Position12>
       <Position13>
         <Filename Value="unit1.pas"/>
-        <Caret Line="340" Column="39" TopLine="321"/>
+        <Caret Line="331" Column="39" TopLine="312"/>
       </Position13>
       <Position14>
         <Filename Value="unit1.pas"/>
-        <Caret Line="339" Column="39" TopLine="320"/>
+        <Caret Line="330" Column="39" TopLine="311"/>
       </Position14>
       <Position15>
         <Filename Value="unit1.pas"/>
-        <Caret Line="338" Column="39" TopLine="319"/>
+        <Caret Line="329" Column="39" TopLine="310"/>
       </Position15>
       <Position16>
         <Filename Value="unit1.pas"/>
-        <Caret Line="337" Column="39" TopLine="318"/>
+        <Caret Line="328" Column="39" TopLine="309"/>
       </Position16>
       <Position17>
         <Filename Value="unit1.pas"/>
-        <Caret Line="336" Column="39" TopLine="317"/>
+        <Caret Line="327" Column="39" TopLine="308"/>
       </Position17>
       <Position18>
         <Filename Value="unit1.pas"/>
-        <Caret Line="335" Column="39" TopLine="316"/>
+        <Caret Line="326" Column="39" TopLine="307"/>
       </Position18>
       <Position19>
         <Filename Value="unit1.pas"/>
-        <Caret Line="334" Column="39" TopLine="315"/>
+        <Caret Line="325" Column="39" TopLine="306"/>
       </Position19>
       <Position20>
         <Filename Value="unit1.pas"/>
-        <Caret Line="333" Column="39" TopLine="314"/>
+        <Caret Line="357" Column="39" TopLine="338"/>
       </Position20>
       <Position21>
         <Filename Value="unit1.pas"/>
-        <Caret Line="332" Column="39" TopLine="313"/>
+        <Caret Line="356" Column="39" TopLine="337"/>
       </Position21>
       <Position22>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="331" Column="39" TopLine="312"/>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="26" Column="57" TopLine="23"/>
       </Position22>
       <Position23>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="330" Column="39" TopLine="311"/>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="25" Column="57" TopLine="22"/>
       </Position23>
       <Position24>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="329" Column="39" TopLine="310"/>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="35" TopLine="20"/>
       </Position24>
       <Position25>
         <Filename Value="unit1.pas"/>
-        <Caret Line="328" Column="39" TopLine="309"/>
+        <Caret Line="169" Column="55" TopLine="153"/>
       </Position25>
       <Position26>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="327" Column="39" TopLine="308"/>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="48" Column="55" TopLine="27"/>
       </Position26>
       <Position27>
         <Filename Value="unit1.pas"/>
-        <Caret Line="326" Column="39" TopLine="307"/>
+        <Caret Line="182" Column="19" TopLine="182"/>
       </Position27>
       <Position28>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="325" Column="39" TopLine="306"/>
+        <Filename Value="systrd.pas"/>
+        <Caret Line="149" Column="75" TopLine="141"/>
       </Position28>
       <Position29>
         <Filename Value="unit1.pas"/>
-        <Caret Line="357" Column="39" TopLine="338"/>
+        <Caret Line="182" Column="3" TopLine="182"/>
       </Position29>
       <Position30>
         <Filename Value="unit1.pas"/>
-        <Caret Line="356" Column="39" TopLine="337"/>
+        <Caret Line="166" Column="107" TopLine="162"/>
       </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode="default"/>
+      <Modes ActiveMode="default"/>
     </RunParams>
   </ProjectSession>
 </CONFIG>

@@ -160,25 +160,23 @@ begin
 end;
 
 procedure TMainForm.FormCreate(Sender: TObject);
-var
-  WorkDir: string;
 begin
   MainForm.Caption := Application.Title;
 
-  //Рабочая директория в профиле
-  WorkDir := GetEnvironmentVariable('HOME') + '/.ginxi';
+  //Директория конфигов в профиле (в root может отсутствовать)
+  if not DirectoryExists(GetUserDir + '.config') then MkDir(GetUserDir + '.config');
 
-  if not DirectoryExists(WorkDir) then
-    MkDir(WorkDir);
-
-  SaveDialog1.InitialDir := GetEnvironmentVariable('HOME');
-  MainFormStorage.IniFileName := WorkDir + '/settings.ini';
+  SaveDialog1.InitialDir := GetUserDir;
+  MainFormStorage.IniFileName := GetUserDir + '.config/ginxi.ini';
 end;
 
 procedure TMainForm.FormShow(Sender: TObject);
 var
-FStartSysThread: TThread;
+  FStartSysThread: TThread;
 begin
+  //Plasma Scaling
+  MainFormStorage.Restore;
+
   //Установка словарей и цветов
   SynAnySyn2.KeyWords.Assign(SynAnySyn1.KeyWords);
 

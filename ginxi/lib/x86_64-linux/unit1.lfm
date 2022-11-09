@@ -1,28 +1,28 @@
 object MainForm: TMainForm
-  Left = 303
-  Height = 709
-  Top = 125
-  Width = 808
+  Left = 305
+  Height = 730
+  Top = 95
+  Width = 877
   ActiveControl = Panel1
   Caption = 'GINXI'
-  ClientHeight = 709
-  ClientWidth = 808
+  ClientHeight = 730
+  ClientWidth = 877
   KeyPreview = True
   OnCreate = FormCreate
   OnShow = FormShow
   Position = poDesktopCenter
   SessionProperties = 'Height;MenuItem10.Checked;MenuItem11.Checked;MenuItem14.Checked;MenuItem15.Checked;MenuItem16.Checked;MenuItem17.Checked;Panel10.Height;Panel11.Height;Panel1.Height;Panel2.Height;Panel3.Height;Panel4.Height;Panel5.Height;Panel6.Height;Panel7.Height;Panel8.Height;Panel9.Height;Width;MenuItem9.Checked'
-  LCLVersion = '2.0.10.0'
+  LCLVersion = '2.2.0.4'
   object Panel1: TPanel
     Left = 0
-    Height = 48
+    Height = 40
     Top = 0
-    Width = 808
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'System:'
-    ClientHeight = 48
-    ClientWidth = 808
+    ClientHeight = 40
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -32,9 +32,9 @@ object MainForm: TMainForm
     TabOrder = 0
     inline SynEdit1: TSynEdit
       Left = 96
-      Height = 46
+      Height = 38
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -546,21 +546,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 48
-    Width = 808
+    Top = 40
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel2: TPanel
     Left = 0
     Height = 50
-    Top = 53
-    Width = 808
+    Top = 45
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'Machine:'
     ClientHeight = 50
-    ClientWidth = 808
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -572,7 +572,7 @@ object MainForm: TMainForm
       Left = 96
       Height = 48
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -1084,8 +1084,8 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 103
-    Width = 808
+    Top = 95
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
@@ -1093,21 +1093,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 165
-    Width = 808
+    Top = 150
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel4: TPanel
     Left = 0
-    Height = 99
-    Top = 170
-    Width = 808
+    Height = 90
+    Top = 155
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'Graphics:'
-    ClientHeight = 99
-    ClientWidth = 808
+    ClientHeight = 90
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -1117,9 +1117,9 @@ object MainForm: TMainForm
     TabOrder = 5
     inline SynEdit4: TSynEdit
       Left = 96
-      Height = 97
+      Height = 88
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -1631,21 +1631,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 269
-    Width = 808
+    Top = 245
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel5: TPanel
     Left = 0
-    Height = 70
-    Top = 274
-    Width = 808
+    Height = 85
+    Top = 250
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'Audio:'
-    ClientHeight = 70
-    ClientWidth = 808
+    ClientHeight = 85
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -1655,9 +1655,9 @@ object MainForm: TMainForm
     TabOrder = 7
     inline SynEdit5: TSynEdit
       Left = 96
-      Height = 68
+      Height = 83
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -2167,14 +2167,14 @@ object MainForm: TMainForm
   end
   object Panel3: TPanel
     Left = 0
-    Height = 57
-    Top = 108
-    Width = 808
+    Height = 50
+    Top = 100
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'CPU:'
-    ClientHeight = 57
-    ClientWidth = 808
+    ClientHeight = 50
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -2184,9 +2184,9 @@ object MainForm: TMainForm
     TabOrder = 8
     inline SynEdit3: TSynEdit
       Left = 96
-      Height = 55
+      Height = 48
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -2698,21 +2698,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 344
-    Width = 808
+    Top = 335
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel6: TPanel
     Left = 0
-    Height = 50
-    Top = 349
-    Width = 808
+    Height = 60
+    Top = 340
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'Network:'
-    ClientHeight = 50
-    ClientWidth = 808
+    ClientHeight = 60
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -2722,9 +2722,9 @@ object MainForm: TMainForm
     TabOrder = 10
     inline SynEdit6: TSynEdit
       Left = 96
-      Height = 48
+      Height = 58
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -3236,21 +3236,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 399
-    Width = 808
+    Top = 400
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel7: TPanel
     Left = 0
-    Height = 63
-    Top = 404
-    Width = 808
+    Height = 60
+    Top = 405
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'Drives:'
-    ClientHeight = 63
-    ClientWidth = 808
+    ClientHeight = 60
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -3260,9 +3260,9 @@ object MainForm: TMainForm
     TabOrder = 12
     inline SynEdit7: TSynEdit
       Left = 96
-      Height = 61
+      Height = 58
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -3774,21 +3774,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 467
-    Width = 808
+    Top = 465
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel8: TPanel
     Left = 0
-    Height = 82
-    Top = 472
-    Width = 808
+    Height = 100
+    Top = 470
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'Partition:'
-    ClientHeight = 82
-    ClientWidth = 808
+    ClientHeight = 100
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -3798,9 +3798,9 @@ object MainForm: TMainForm
     TabOrder = 14
     inline SynEdit8: TSynEdit
       Left = 96
-      Height = 80
+      Height = 98
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -4312,21 +4312,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 554
-    Width = 808
+    Top = 570
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel9: TPanel
     Left = 0
-    Height = 43
-    Top = 559
-    Width = 808
+    Height = 35
+    Top = 575
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'RAID:'
-    ClientHeight = 43
-    ClientWidth = 808
+    ClientHeight = 35
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -4336,9 +4336,9 @@ object MainForm: TMainForm
     TabOrder = 16
     inline SynEdit9: TSynEdit
       Left = 96
-      Height = 41
+      Height = 33
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -4850,21 +4850,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 602
-    Width = 808
+    Top = 610
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel10: TPanel
     Left = 0
     Height = 50
-    Top = 607
-    Width = 808
+    Top = 615
+    Width = 877
     Align = alTop
     Alignment = taLeftJustify
     Caption = 'Sensors:'
     ClientHeight = 50
-    ClientWidth = 808
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -4876,7 +4876,7 @@ object MainForm: TMainForm
       Left = 96
       Height = 48
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -5388,21 +5388,21 @@ object MainForm: TMainForm
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 657
-    Width = 808
+    Top = 665
+    Width = 877
     Align = alTop
     ResizeAnchor = akTop
   end
   object Panel11: TPanel
     Left = 0
-    Height = 42
-    Top = 662
-    Width = 808
+    Height = 52
+    Top = 670
+    Width = 877
     Align = alClient
     Alignment = taLeftJustify
     Caption = 'Info:'
-    ClientHeight = 42
-    ClientWidth = 808
+    ClientHeight = 52
+    ClientWidth = 877
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Sans'
@@ -5413,9 +5413,9 @@ object MainForm: TMainForm
     TabOrder = 20
     inline SynEdit11: TSynEdit
       Left = 96
-      Height = 40
+      Height = 50
       Top = 1
-      Width = 711
+      Width = 780
       Align = alRight
       Anchors = [akTop, akLeft, akRight, akBottom]
       Font.Height = 13
@@ -5925,9 +5925,9 @@ object MainForm: TMainForm
   end
   object ProgressBar1: TProgressBar
     Left = 0
-    Height = 5
-    Top = 704
-    Width = 808
+    Height = 8
+    Top = 722
+    Width = 877
     Align = alBottom
     Max = 50
     ParentFont = False
@@ -5961,11 +5961,11 @@ object MainForm: TMainForm
       'DATE'
       'DESKTOP'
       'DEV'
+      'DEV-LINKS'
       'DEVICE-1'
       'DEVICE-2'
       'DEVICE-3'
       'DEVICE-4'
-      'DEV-LINKS'
       'DIRECT'
       'DISPLAY'
       'DISTRO'

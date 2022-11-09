@@ -24,13 +24,12 @@ msgstr ""
 #: taboutform.label3.caption
 msgid ""
 "GUI for INXI\n"
-"\n"
+"  \n"
 "License: GPLv3\n"
-"Compilation: Lazarus 2.0.10\n"
+"Compilation: Lazarus 2.2.0\n"
 "Author: alex_q_2000 (C) 2021\n"
-"\n"
-"Russian Linux Forum\n"
-"https://linuxforum.ru\n"
+"  \n"
+"Russian Linux Forum: https://linuxforum.ru"
 msgstr ""
 
 #: tmainform.caption

@@ -16,11 +16,11 @@ type
     Bevel2: TBevel;
     BitBtn1: TBitBtn;
     Image1: TImage;
-    AboutFormStorage: TIniPropStorage;
     Label1: TLabel;
     Label3: TLabel;
     procedure BitBtn1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
 
   public
@@ -32,8 +32,6 @@ var
 
 implementation
 
-uses Unit1;
-
 {$R *.lfm}
 
 { TAboutForm }
@@ -41,7 +39,13 @@ uses Unit1;
 procedure TAboutForm.FormCreate(Sender: TObject);
 begin
   Label1.Caption := Application.Title;
-  AboutFormStorage.IniFileName := MainForm.MainFormStorage.IniFileName;
+end;
+
+procedure TAboutForm.FormShow(Sender: TObject);
+begin
+  //Авторазмер
+  AboutForm.Width := Label3.Left + Label3.Width + 8;
+  AboutForm.Height := BitBtn1.Top + BitBtn1.Height + 8;
 end;
 
 procedure TAboutForm.BitBtn1Click(Sender: TObject);
